@@ -25,11 +25,11 @@ pip install -r requirements.txt
 To train and evaluate on the oos\_full dataset, please run the following commands:
 ### Train a Model
 ```
-make train dataset=oos_full
+make train dataset=oos_full domain_first=true
 ```
 ### Evaluate a Model
 ```
-make predict dataset=oos_full
+make predict dataset=oos_full domain_first=true test_batch_size=1
 ```
 
 
